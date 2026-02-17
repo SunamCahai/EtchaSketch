@@ -1,7 +1,13 @@
 function changeColor(e) {
-    e.target.style.backgroundColor = 'black';
+    e.target.style.backgroundColor = getRandomColor();
 }
 
+function getRandomColor() {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    return `rgb(${r}, ${g}, ${b})`;
+}
 
 function changeOpacity(e) {
     let currentOpacity = parseFloat(e.target.style.opacity) || 0;
