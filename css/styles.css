@@ -1,0 +1,16 @@
+div {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(32, 29, 29);
+}
+
+.square {
+    border: 1px solid darkblue;
+    height: calc(500px / 16);
+    width: calc(500px / 16);
+    box-sizing: border-box;
+}
