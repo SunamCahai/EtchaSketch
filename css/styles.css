@@ -1,16 +1,12 @@
-div {
-    display: flex;
-    flex-wrap: wrap;
-    height: 500px;
-    width: 500px;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid rgb(32, 29, 29);
+
+.container {
+    display: grid;
+    width: 950px;  /* Или любая другая фиксированная величина */
+    height: 800px;
+    border: 1px solid rgb(199, 198, 198);
 }
 
 .square {
-    border: 1px solid darkblue;
-    height: calc(500px / 16);
-    width: calc(500px / 16);
-    box-sizing: border-box;
+    border: 1px solid #f5f1f1;
 }
+
