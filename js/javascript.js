@@ -16,7 +16,7 @@ function changeOpacity(e) {
     }
 }
 
-function createGrid(size, a) {
+function createGrid(size) {
     const container = document.querySelector('.container');
     container.innerHTML = '';
 
